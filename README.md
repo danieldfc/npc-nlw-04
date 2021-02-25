@@ -60,6 +60,12 @@ $ gh repo clone danieldfc/npc-nlw-04 && cd npc-nlw-04
 # Install the dependencies
 $ yarn
 
+# Copy the file `ormconfig.example.json` for this
+# UNIX - Linux e Max
+$ cp ormconfig.example.json ormconfig.json
+# Windows
+$ copy ormconfig.example.json ormconfig.json
+
 # Use the script to run the migrations
 $ yarn typeorm migration:run
 
