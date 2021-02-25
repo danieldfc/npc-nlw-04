@@ -61,7 +61,7 @@ $ gh repo clone danieldfc/npc-nlw-04 && cd npc-nlw-04
 $ yarn
 
 # Copy the file `ormconfig.example.json` for this
-# UNIX - Linux e Max
+# UNIX - Linux e Mac
 $ cp ormconfig.example.json ormconfig.json
 # Windows
 $ copy ormconfig.example.json ormconfig.json
