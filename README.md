@@ -21,7 +21,7 @@
 </p>
 
 <p align="center">
-  <img alt="Happy" src="assets/npc.jpg" width="100%">
+  <img alt="NPC" src="assets/npc.png" width="100%">
 </p>
 
 ## 🧸 About the project
