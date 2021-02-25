@@ -7,6 +7,8 @@ describe('Surveys - Create', () => {
   beforeAll(async () => {
     const connection = await createConnection();
     await connection.runMigrations();
+    await connection.query('DELETE FROM users');
+    await connection.query('DELETE FROM surveys');
   });
 
   it('should be able to create a new survey', async () => {
