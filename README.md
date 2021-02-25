@@ -4,9 +4,9 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/daniel-felizardo/"><img alt="Made by" src="https://img.shields.io/badge/made%20by-Daniel%20Felizado-%2315C3D6"></a>
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/danieldfc/npc-nlw-04?color=15C3D6">
-  <a href="https://github.com/danieldfc/npc-nlw-04/commits/master"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/danieldfc/npc-nlw-04?color=15C3D6"></a>
-  <img alt="GitHub" src="https://img.shields.io/github/license/danieldfc/npc-nlw-04?color=15C3D6">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/danieldfc/nps-nlw-04?color=15C3D6">
+  <a href="https://github.com/danieldfc/nps-nlw-04/commits/master"><img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/danieldfc/nps-nlw-04?color=15C3D6"></a>
+  <img alt="GitHub" src="https://img.shields.io/github/license/danieldfc/nps-nlw-04?color=15C3D6">
 </p>
 
 <p align="center">
@@ -17,7 +17,7 @@
 </p>
 
 <p id="insomniaButton" align="center">
-  <a href="https://insomnia.rest/run/?label=NLW%2304&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fdanieldfc%2Fnpc-nlw-04%2Fmaster%2Fexport.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
+  <a href="https://insomnia.rest/run/?label=NLW%2304&uri=https%3A%2F%2Fraw.githubusercontent.com%2Fdanieldfc%2Fnps-nlw-04%2Fmaster%2Fexport.json" target="_blank"><img src="https://insomnia.rest/images/run.svg" alt="Run in Insomnia"></a>
 </p>
 
 <p align="center">
@@ -50,9 +50,9 @@ Import the `export.json` on Insomnia App or click on [Run in Insomnia](#insomnia
 - [Yarn](https://classic.yarnpkg.com/)
 
 ```bash
-$ git clone https://github.com/danieldfc/npc-nlw-04.git && cd npc-nlw-04
+$ git clone https://github.com/danieldfc/nps-nlw-04.git && cd nps-nlw-04
 # Or if you have the Github CLI installed on your machine
-$ gh repo clone danieldfc/npc-nlw-04 && cd npc-nlw-04
+$ gh repo clone danieldfc/nps-nlw-04 && cd nps-nlw-04
 ```
 
 **Follow the steps below**
@@ -84,14 +84,14 @@ $ yarn dev
 # Fork using GitHub official command line
 # If you don't have the GitHub CLI, use the web site to do that.
 
-$ gh repo fork danieldfc/npc-nlw-04
+$ gh repo fork danieldfc/nps-nlw-04
 ```
 
 **Follow the steps below**
 
 ```bash
 # Clone your fork
-$ git clone your-fork-url && cd npc-nlw-04
+$ git clone your-fork-url && cd nps-nlw-04
 
 # Create a branch with your feature
 $ git checkout -b my-feature
