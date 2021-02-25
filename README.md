@@ -21,7 +21,7 @@
 </p>
 
 <p align="center">
-  <img alt="NPC" src="assets/npc.png" width="100%">
+  <img alt="NPC" src="assets/npc.png" width="75%">
 </p>
 
 ## 🧸 About the project
