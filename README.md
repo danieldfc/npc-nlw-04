@@ -1,5 +1,5 @@
 <h1 align="center">
-  NPC - Satisfaction Level - Trilha Node.js
+  NPS - Satisfaction Level - Trilha Node.js
 </h1>
 
 <p align="center">
@@ -28,7 +28,7 @@
 
 This project was developed on the Next Level Week #04 event by [Rocketseat](https://rocketseat.com.br/) 🚀&nbsp;💜
 
-NPC is a project to check the level of satisfaction with a certain company, for example: Rocketseat; The application will contain several concepts used in the classes, but with some additions preferred by me.
+NPS is a project to check the level of satisfaction with a certain company, for example: Rocketseat; The application will contain several concepts used in the classes, but with some additions preferred by me.
 
 ## 🚀 Technologies
 
