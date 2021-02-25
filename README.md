@@ -38,6 +38,7 @@ Technologies that I used to develop this application
 - [TypeScript](https://www.typescriptlang.org/)
 - [Express](https://expressjs.com/pt-br/)
 - [TypeORM](https://typeorm.io/#/)
+- [Nodemailer](https://nodemailer.com/about/)
 
 ## 💻 Getting started
 
