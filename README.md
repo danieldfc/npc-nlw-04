@@ -1,12 +1,6 @@
-# NLW#04 - NPC - Trilha Node.js
-
 <h1 align="center">
-    <img alt="NPC" title="NPC" src="assets/logo.png" />
+  NPC - Satisfaction Level - Trilha Node.js
 </h1>
-
-<h3 align="center">
-  NPC - Satisfaction Level
-</h3>
 
 <p align="center">
   <a href="https://www.linkedin.com/in/daniel-felizardo/"><img alt="Made by" src="https://img.shields.io/badge/made%20by-Daniel%20Felizado-%2315C3D6"></a>
