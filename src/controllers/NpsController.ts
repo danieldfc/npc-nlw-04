@@ -8,9 +8,9 @@
  * (Números de promotores - Número de detratores) / (numero de respondentes) x 100
 */
 
-import { Request, Response } from "express";
-import { getCustomRepository, IsNull, Not } from "typeorm";
-import SurveysUsersRepository from "../repositories/SurveysUsersRepository";
+import { Request, Response } from 'express';
+import { getCustomRepository, IsNull, Not } from 'typeorm';
+import SurveysUsersRepository from '../repositories/SurveysUsersRepository';
 
 class NpsController {
   async show(request: Request, response: Response): Promise<Response> {
