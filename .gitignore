@@ -3,3 +3,4 @@ ormconfig.json
 database.sqlite
 database.test.sqlite
 __tests__/coverage
+.env
