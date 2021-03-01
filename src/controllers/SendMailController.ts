@@ -2,11 +2,9 @@ import { Request, Response } from 'express';
 import { resolve } from 'path';
 import { getCustomRepository } from 'typeorm';
 import SurveysRepository from '../repositories/SurveysRepository';
-import SurveysSurveyUsersRepository from '../repositories/SurveysUsersRepository';
+import SurveysUsersRepository from '../repositories/SurveysUsersRepository';
 import UsersRepository from '../repositories/UsersRepository';
 import SendMailService from '../services/SendMailService';
-
-
 
 class SendMailController {
 
@@ -15,7 +13,7 @@ class SendMailController {
 
     const usersRespository = getCustomRepository(UsersRepository);
     const surveysRepository = getCustomRepository(SurveysRepository);
-    const surveysUsersRepository = getCustomRepository(SurveysSurveyUsersRepository);
+    const surveysUsersRepository = getCustomRepository(SurveysUsersRepository);
 
     const user = await usersRespository.findOne({
       email,
@@ -34,9 +32,7 @@ class SendMailController {
     }
 
     const surveyUserExists = await surveysUsersRepository.findOne({
-      where: [
-        { user_id: user.id }, { value: null },
-      ],
+      where: { user_id: user.id, value: null },
       relations: ['user', 'survey'],
     });
 
@@ -46,10 +42,11 @@ class SendMailController {
       title: survey.title,
       description: survey.description,
       link: `${process.env.APP_URL}/answers`,
-      user_id: user.id,
+      id: '',
     }
 
     if (surveyUserExists) {
+      variables.id = surveyUserExists.id;
       await SendMailService.execute(email, survey.title, variables, npsPath);
       return response.status(201).json(surveyUserExists);
     }
@@ -59,6 +56,7 @@ class SendMailController {
       survey_id,
     });
     await surveysUsersRepository.save(surveyUser);
+    variables.id = surveyUser.id;
 
     await SendMailService.execute(email, survey.title, variables, npsPath);
 
