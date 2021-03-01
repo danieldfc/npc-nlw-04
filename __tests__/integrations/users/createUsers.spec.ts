@@ -30,6 +30,13 @@ describe('Users - Create', () => {
   });
 
   it('should not be able to create a user with same email exists', async () => {
+    await request(app)
+      .post('/users')
+      .send({
+        name: 'User example',
+        email: 'user@example.com',
+      });
+
     return request(app)
       .post('/users')
       .send({
